@@ -10,7 +10,7 @@
 %--- layout lines, remove when finished ---%
 
 
-\title{Trigonometry Reference\\[1ex] \large Version 0.9.3}
+\title{Trigonometry Reference\\[1ex] \large Version 1.0.0}
 \author{N. Gray}
 \date{June 2024}
 
@@ -87,9 +87,9 @@ For each of the three basic trigonometric functions (sin, cos, tan), there exist
 \\
 \begin{minipage}{0.5\textwidth}
     Where:\\
-    $\cos=\frac{adjacent}{hypotenuse} \longrightarrow \sec=\frac{hypotenuse}{adjacent}$\\
-    $\sin=\frac{opposite}{hypotenuse} \longrightarrow \csc=\frac{hypotenuse}{opposite}$\\
-    $\tan=\frac{opposite}{adjacent} \longrightarrow \cot=\frac{adjacent}{opposite}$
+    $\cos\theta=\frac{adjacent}{hypotenuse} \longrightarrow \sec\theta=\frac{hypotenuse}{adjacent}$\\
+    $\sin\theta=\frac{opposite}{hypotenuse} \longrightarrow \csc\theta=\frac{hypotenuse}{opposite}$\\
+    $\tan\theta=\frac{opposite}{adjacent} \longrightarrow \cot\theta=\frac{adjacent}{opposite}$
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
     These functions, being reciprocals of the formerly identified three functions, may be represented as
@@ -190,7 +190,8 @@ $\tan\theta=\frac{\sin\theta}{\cos\theta}=\frac{y}{x}$
 This triangle, made of two right triangles with side lengths 1, $\frac{1}{2}$, and b. The larger triangle built of these two must be equilateral, and since\vspace{0.1cm}\\
 $a^2+b^2=c^2$,\vspace{0.1cm}\\
 $b^2=1^2-(\frac{1}{2})^2$\vspace{0.1cm}\\
-$b^2=1-\sqrt{\frac{3}{4}}=\frac{\sqrt{3}}{\sqrt{4}}=\frac{\sqrt{3}}{2}$
+$b^2=1-\frac{1}{4}=\frac{3}{4}$\vspace{0.1cm}\\
+$b=\sqrt{\frac{3}{4}}=\frac{\sqrt{3}}{\sqrt{4}}=\frac{\sqrt{3}}{2}$
 \end{minipage}
 \vspace{0.5cm}
 \\
@@ -328,8 +329,8 @@ The law of cosines can be expressed in the form\\
     $c\approx14.6$
 \end{minipage}
 \begin{center}
-    Alternately, it can be expressed in its arccos form as:\vspace{0.1cm}\\
-    $arccos(\frac{a^2+b^2-c^2}{2ab})=\theta$
+    Alternately, it can be expressed as:\vspace{0.1cm}\\
+    $\arccos(\frac{a^2+b^2-c^2}{2ab})=\theta$
 \end{center}
 \vspace{1.5cm}
 
@@ -475,48 +476,48 @@ $\boxed{\tan(2a)=\frac{2\tan a}{1-\tan^2a}}$
     \;
 \end{minipage}
 \begin{minipage}{0.49\textwidth}
-Pythagorean Identities\\
+Pythagorean Identities\vspace{0.1cm}\\
 $\sin^2\theta+\cos^2\theta=1$\\
 $\sin^2\theta=1-\cos^2\theta$\\
 $\cos^2\theta=1-\sin^2\theta$\vspace{0.8cm}
 \\
-Quotient Identities\\
+Quotient Identities\vspace{0.1cm}\\
 $\tan\theta=\frac{\sin\theta}{\cos\theta}$\vspace{.1cm}\\
 $\cot\theta=\frac{\cos\theta}{\sin\theta}$\vspace{0.8cm}
 \\
-Reciprocal Identities\\
+Reciprocal Identities\vspace{0.1cm}\\
 $\sec\theta=\frac{1}{\cos\theta}$\vspace{.1cm}\\
 $\csc\theta=\frac{1}{\sin\theta}$\vspace{.1cm}\\
 $\cot\theta=\frac{1}{\tan\theta}$\vspace{0.8cm}
 \\
-Sum and Difference Identities\\
-$\sin(x+y)=\sin x\cos y+\cos x\sin y$\\
-$\cos(x+y)=\cos y\cos x-\sin y\sin x$\\
+Sum and Difference Identities\vspace{0.1cm}\\
+$\sin(a+b)=\sin a\cos b+\cos a\sin b$\\
+$\cos(a+b)=\cos a\cos b-\sin a\sin b$\\
 $\sin(a-b)=\sin a\cos b-\cos a\sin b$\\
 $\cos(a-b)=\cos a\cos b+\sin a\sin b$\vspace{.1cm}\\
 $\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\tan b}$\vspace{.1cm}\\
 $\tan(a-b)\frac{\tan a-\tan b}{1+\tan a\tan b}$\\
 \end{minipage}
 \begin{minipage}{0.49\textwidth}
-Double-Angle Identities\\
-$\sin(2a)=2\sin a\cos a$\\
-$\cos(2a)=\cos^2a-\sin^2a$\\
-$\cos(2a)=2\cos^2a-1$\\
-$\cos(2a)=1-2\sin^2a$\\
-$\tan(2a)=\frac{2\tan a}{1-\tan^2a}$\vspace{1cm}
+Double-Angle Identities\vspace{0.1cm}\\
+$\sin(2\theta)=2\sin \theta\cos \theta$\\
+$\cos(2\theta)=\cos^2\theta-\sin^2\theta$\\
+$\cos(2\theta)=2\cos^2\theta-1$\\
+$\cos(2\theta)=1-2\sin^2\theta$\\
+$\tan(2\theta)=\frac{2\tan \theta}{1-\tan^2\theta}$\vspace{1cm}
 \\
-Half-Angle Identities\\
-$\sin(\frac{x}{2})=\pm\sqrt{\frac{1-\cos x}{2}}$\\
-$\cos(\frac{x}{2})=\pm\sqrt{\frac{1+\cos x}{2}}$\\
-$\tan(\frac{a}{2})=\pm\sqrt{\frac{1-\cos a}{1+\cos a}}$\vspace{.1cm}\\
-$\tan(\frac{a}{2})=\frac{\sin a}{1+\cos a}$\vspace{.1cm}\\
-$\tan(\frac{a}{2})=\frac{1-\cos a}{\sin a}$\vspace{1cm}
+Half-Angle Identities\vspace{0.1cm}\\
+$\sin(\frac{\theta}{2})=\pm\sqrt{\frac{1-\cos \theta}{2}}$\\
+$\cos(\frac{\theta}{2})=\pm\sqrt{\frac{1+\cos \theta}{2}}$\\
+$\tan(\frac{\theta}{2})=\pm\sqrt{\frac{1-\cos \theta}{1+\cos \theta}}$\vspace{.1cm}\\
+$\tan(\frac{\theta}{2})=\frac{\sin \theta}{1+\cos \theta}$\vspace{.1cm}\\
+$\tan(\frac{\theta}{2})=\frac{1-\cos \theta}{\sin \theta}$\vspace{1cm}
 \\
-Even Identities\\
+Even Identities\vspace{0.1cm}\\
 $\cos(-\theta)=\cos\theta$\vspace{.1cm}\\
 $\sec(-\theta)=\sec\theta$\vspace{.1cm}\\
 \\
-Odd Identities\\
+Odd Identities\vspace{0.1cm}\\
 $\sin(-\theta)=-\sin\theta$\vspace{.1cm}\\
 $\tan(-\theta)=-\tan\theta$\vspace{.1cm}\\
 $\csc(-\theta)=-\csc\theta$
@@ -530,3 +531,4 @@ $\csc(-\theta)=-\csc\theta$
 Courtesy of embeddedmath.com
 
 \end{document}
+
