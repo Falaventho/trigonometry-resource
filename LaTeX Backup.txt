@@ -1,0 +1,525 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage{geometry}
+
+
+%--- layout lines, remove when finished ---%
+%\usepackage{showframe}%
+%\renewcommand*\ShowFrameColor{\color{red}}%
+%--- layout lines, remove when finished ---%
+
+
+\title{Trigonometry Reference\\[1ex] \large Version 0.9.1}
+\author{N. Gray}
+\date{June 2024}
+
+\begin{document}
+
+\maketitle
+
+
+\newpage
+\section{Trigonometric Ratios}
+$\sin\theta = \frac{opposite}{hypotenuse}$\hspace{1.5cm}
+$\csc\theta = \frac{hypotenuse}{opposite}$\hspace{1.4cm}
+$\arcsin(\frac{opposite}{hypotenuse}) = \theta$
+\\
+\\
+$\cos\theta = \frac{adjacent}{hypotenuse}$\hspace{1.1cm}
+$\sec\theta = \frac{hypotenuse}{adjacent}$\hspace{1.4cm}
+$\arccos(\frac{adjacent}{hypotenuse}) = \theta$
+\\
+\\
+$\tan\theta = \frac{opposite}{adjacent}$\hspace{1.4cm}
+$\cot\theta = \frac{adjacent}{opposite}$\hspace{1.8cm}
+$\arctan(\frac{opposite}{adjacent}) = \theta$
+\vspace{0.5cm}\\
+
+\noindent
+\begin{minipage}{0.35\textwidth}
+    \includegraphics[scale=0.28]{triangle-one.png}
+\end{minipage}
+\begin{minipage}{0.25\textwidth}
+$\sin(\alpha) = \frac{b}{c}$\vspace{0.1cm}\\
+$\cos(\alpha) = \frac{a}{c}$\vspace{0.1cm}\\
+$\tan(\alpha) = \frac{b}{a}$\\
+\\
+$\sin(\beta) = \frac{a}{c}$\vspace{0.1cm}\\
+$\cos(\beta) = \frac{b}{c}$\vspace{0.1cm}\\
+$\tan(\beta) = \frac{a}{b}$
+\end{minipage}
+\begin{minipage}{0.23\textwidth}
+Complements for\\
+$0\le \theta \le 90^\circ$\\
+$0\le \theta \le \frac{\pi}{2}$\\
+\\
+$\sin\theta = \cos(90-\theta)$\\
+$\cos\theta = \sin(90-\theta$\\
+\\
+$\sin\theta = \cos(\frac{\pi}{2}-\theta)$\\
+$\cos\theta = \sin(\frac{\pi}{2}-\theta)$
+
+\end{minipage}
+\\
+
+
+\section{Pythagorean Identities}
+
+\hspace{0.8cm}
+\begin{minipage}{0.4\textwidth}
+$\sin\theta=\frac{b}{c}$\hspace{1cm}
+$\cos\theta=\frac{a}{c}$\\\\
+$\sin^2\theta=\frac{b^2}{c^2}$\hspace{0.7cm}
+$\cos^2\theta=\frac{a^2}{c^2}$\\\\
+$\sin^2\theta+\cos^2\theta=\frac{a^2+b^2}{c^2}$\\\\
+since\hspace{0.5cm}$a^2 + b^2 = c^2$,\\\\
+$\sin^2\theta+\cos^2\theta=1$\\
+$\sin^2\theta=1-\cos^2\theta$\\
+$\cos^2\theta=1-\sin^2\theta$\\
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    \includegraphics[scale=0.4]{triangle-two.png}
+\end{minipage}
+
+\section{Reciprocal Functions}
+For each of the three basic trigonometric functions (sin, cos, tan), there exists a reciprocal function. These functions are secant (related to cosine), cosecant (related to sin), and cotangent (related to tangent)\\
+\\
+\begin{minipage}{0.5\textwidth}
+    Where:\\
+    $\cos=\frac{adjacent}{hypotenuse} \longrightarrow \sec=\frac{hypotenuse}{adjacent}$\\
+    $\sin=\frac{opposite}{hypotenuse} \longrightarrow \csc=\frac{hypotenuse}{opposite}$\\
+    $\tan=\frac{opposite}{adjacent} \longrightarrow \cot=\frac{adjacent}{opposite}$
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    These functions, being reciprocals of the formerly identified three functions, may be represented as
+    \vspace{.2cm}
+    \\
+    $\sec\theta=\frac{1}{\cos\theta}$\hspace{0.2cm}
+    $\csc\theta=\frac{1}{\sin\theta}$\hspace{0.2cm}
+    $\cot\theta=\frac{1}{\tan\theta}$
+\end{minipage}
+\newpage
+\section{Arc Functions}
+Another set of functions is directly related to the three basic functions and their reciprocals. These are inverse functions, which "undo" their associated functions. They are called arc functions because they give the length of the arc of a given ratio. There is one arc function for each of the three basic functions and each of their reciprocals:\vspace{0.25cm}\\
+\begin{minipage}{0.5\textwidth}
+$\sin\theta=y\longrightarrow\arcsin y=\theta$\\
+$\cos\theta=y\longrightarrow\arccos y=\theta$\\
+$\tan\theta=y\longrightarrow\arctan y=\theta$\\
+\\
+$\csc\theta=y\longrightarrow\text{arccsc}\:y=\theta$\\
+$\sec\theta=y\longrightarrow\text{arcsec}\:y=\theta$\\
+$\tan\theta=y\longrightarrow\text{arccot}\:y=\theta$
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+It is important to mention that another notation is often used for these inverse functions. The standard inverse function notation is $\;f^{-1}(x)$, the inverse for some function $\;f(x)$. Here, any of the base functions can replace '$f$' in the inverse function notation. For example, $\;\arcsin\theta$\; can instead be written as $\;\sin^{-1}\theta\;$. The same holds true for all other base functions and their associated inverse functions.
+\end{minipage}
+
+\section{Radians}
+\noindent
+\begin{minipage}{0.4\textwidth}
+A radian is the angle subtended at the center of a circle by an arc that is equal in length to the radius. It is a fraction of a circle equal to $\frac{360^\circ}{2\pi}$\;or $\frac{180^\circ}{\pi}$\;degrees.
+\begin{center}
+$1\text{ rad}\approx57.296^\circ$
+\end{center}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+\begin{center}
+Degrees $\longleftrightarrow$ Radians\vspace{0.2cm}\\
+$deg\cdot\frac{\pi}{180}=rad$\vspace{0.25cm}\\
+$rad\cdot\frac{180}{\pi}=deg$\\
+\vspace{0.35cm}
+Examples:\\
+$30^\circ=\frac{30\pi}{180}=\frac{\pi}{6}rad$\vspace{0.1cm}\\
+$\frac{\pi}{3}rad=\frac{180\pi}{3\pi}=60^\circ$
+\end{center}
+\end{minipage}
+
+\newpage
+\section{Unit Circle}
+
+The unit circle is a circle on a Cartesian plane with a radius of one. It is a helpful tool that allows for the visualization of sin, cos, and tan by forcing any right triangle drawn within the bounds of the circle using the origin and intersection of the circle as ends of a line segment to have a hypotenuse equal to one. This makes the sin and cos, which depend upon the hypotenuse as the denominator of their ratios, easier to identify and memorize at certain useful angles. The result is that the x-value of a coordinate on the circle is equal to the cosine of the angle formed from the origin, while the y-value of a coordinate is equal to the sin of said angle. Additionally, it allows for the consideration of trigonometric functions outside of normal bounds and gives answers to difficult questions concerning the limits of these functions and their symmetries across positive and negative domains.
+\vspace{1.5cm}
+\\
+\begin{minipage}{0.5\textwidth}
+\includegraphics[scale=0.33]{unitcircle-one.png}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{center}
+$\cos\theta=\frac{a}{1}=a$\vspace{0.1cm}\\
+$\sin\theta=\frac{b}{1}=b$\vspace{0.1cm}\\
+$\tan\theta=\frac{b}{a}=\frac{\sin\theta}{\cos\theta}$
+\\
+\end{center}
+\vspace{0.2cm}
+$\cos\theta$ is equal to the x coordinate of the terminal end of $\angle{\theta}$ as it intersects the circle.
+\\\\
+$\sin\theta$ is equal to the y coordinate of the terminal end of $\angle{\theta}$ as it intersects the circle.
+\\
+\begin{center}
+$\tan\theta=\frac{\sin\theta}{\cos\theta}=\frac{y}{x}$
+\end{center}
+\end{minipage}
+
+\newpage
+
+\section{Unit Circle Symmetries}
+\vspace{0.5cm}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[scale=0.3]{unitcircle-three.png}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+    $\cos(-\theta)=\cos\theta$\\
+    $\sin(-\theta)=-\sin\theta$\\
+    $\tan(-\theta)=-\tan\theta$\\
+    \\
+    $\cos(\pi-\theta)=-\cos\theta$\\
+    $\sin(\pi-\theta)=\sin\theta$\\
+    $\tan(\pi-\theta)=-\tan\theta$\\
+    \\
+    $\cos(\pi+\theta)=-\cos\theta$\\
+    $\sin(\pi+\theta=-\sin\theta$\\
+    $\tan(\pi+\theta)=\tan\theta$\\
+\end{minipage}
+
+\section{Proving the Unit Circle}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[scale=0.3]{triangle-three.png}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+This triangle, made of two right triangles with side lengths 1, $\frac{1}{2}$, and b. The larger triangle built of these two must be equilateral, and since\vspace{0.1cm}\\
+$a^2+b^2=c^2$,\vspace{0.1cm}\\
+$b^2=1^2-(\frac{1}{2})^2$\vspace{0.1cm}\\
+$b^2=1-\sqrt{\frac{3}{4}}=\frac{\sqrt{3}}{\sqrt{4}}=\frac{\sqrt{3}}{2}$
+\end{minipage}
+\vspace{0.5cm}
+\\
+\begin{minipage}{0.1\textwidth}
+\;
+\end{minipage}
+\begin{minipage}{0.35\textwidth}
+$\cos\frac{\pi}{3}=\frac{1}{2}$\vspace{0.1cm}\\
+$\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$\vspace{0.1cm}\\
+$\tan\frac{\pi}{3}=\sqrt{3}$\\
+\\
+$\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$\vspace{0.1cm}\\
+$\sin\frac{\pi}{6}=\frac{1}{2}$\vspace{0.1cm}\\
+$\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$\\
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+$\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$\vspace{0.1cm}\\
+$\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}$\vspace{0.1cm}\\
+$\tan\frac{\pi}{4}=1$
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[scale=0.4]{triangle-four.png}
+\end{minipage}
+
+
+\newpage
+\section{Sinusoidal Functions}
+
+\begin{center}
+\includegraphics[scale=0.6]{sincosgraph-one.png}
+\vspace{0.5cm}
+\\
+$\cos(x) $ $---$\hspace{2cm}
+$\sin(x)$ \rule[0.06cm]{1cm}{0.05cm}
+\end{center}
+\vspace{1cm}
+Midline is the average y-value of a sinusoidal function, and can be represented as\\
+$midline=\frac{min+max}{2}$\\
+\\
+Amplitude is the height sinusoidal wave from the midline and can be represented as\\
+$amp=\frac{min-max}{2}$ or $amp=max-midline$\\
+\\
+Period is the length of a complete cycle, or the distance after which a function repeats itself. It can be represented as the first value $x_2 > x_1$ at which\\
+$f(x_1)=f(x_2)$ and $f'(x_1)=f'(x_2)$\\
+\\
+For unmodified sin and cos functions, represented in the figure above,
+\begin{center}
+$period = 2\pi$\hspace{0.5cm}$midline=0$\hspace{0.5cm}$amplitude=1$\\
+\end{center}
+\newpage
+\section{Interpreting Sinusoidal Equations}
+The general form of a sinusoidal function is $y=A\sin(B(x-C))+D$ and certain characteristics of the function can be extracted directly from this form
+\vspace{0.1cm}
+\begin{center}
+$amplitude=A$\\
+$period=\frac{2\pi}{B}$\\
+$horizontal\;shift = C$\\
+$vertical\;shift = D$\\
+\vspace{0.1cm}
+\end{center}
+Note: the sinusoidal function may take the form $y=A\sin(Bx-C)+D$ instead. If this is the case, the horizontal offset or "phase shift" is $\frac{C}{B}$ instead of $C$ as in the above example.
+\vspace{0.5cm}
+\begin{center}
+    Worked Example\\
+    $y=6\sin(-3x+4)-3$\\
+\end{center}
+\vspace{0.25cm}
+\begin{minipage}{0.3\textwidth}
+\centering
+$period=\frac{2\pi}{-3}$\\
+$amplitude=6$\\
+$midline=-3$
+\end{minipage}
+\begin{minipage}{0.7\textwidth}
+    The $+4$ inside the $\sin(u)$ is an x-offset or "phase shift." The value of the phase shift can be derived from a function in the form $A\sin(Bx-C)+D$ as $\frac{C}{B}$. In this case, $-\frac{4}{3}$. The phase shift represents an offset in the -x direction, so this graph is shifted to the right $\frac{4}{3}$ or $1.\overline{3}$.
+\end{minipage}
+
+\section{Law of Sines}
+\begin{minipage}{0.35\textwidth}
+    \includegraphics[scale=0.3]{los-triangle-one.png}
+\end{minipage}
+\begin{minipage}{0.65\textwidth}
+    For any given triangle, any angle $U_n$ and opposite side $L_n$ arranged $\frac{\sin(U_n)}{L_n}$ is equivalent to any other $U_n$ $L_n$ pair for the same triangle.
+    \begin{center}
+    $\frac{\sin(30^\circ)}{2} = \frac{\sin(45^\circ)}{b} = \frac{\sin\theta}{a}$
+    \end{center}
+\end{minipage}
+
+\begin{minipage}{0.33\textwidth}
+    $\frac{\sin(30^\circ)}{2} = \frac{1}{4}$\\
+    \\
+    \\
+\end{minipage}
+\begin{minipage}{0.33\textwidth}
+    $\frac{\sin(45^\circ)}{b} = \frac{1}{4}$\vspace{0.1cm}\\
+    $4\sin(45^\circ)=b$\vspace{0.1cm}\\
+    $b=2\sqrt{2}$\vspace{0.1cm}\\
+    $b\approx2.83$
+\end{minipage}
+\begin{minipage}{0.33\textwidth}
+    $\frac{\sin(105^\circ)}{a} = \frac{1}{4}$\vspace{0.1cm}\\
+    $4\sin(105^\circ)=a$\vspace{0.1cm}\\
+    $a\approx3.86$
+\end{minipage}
+\vspace{0.6cm}
+\begin{center}
+    Geometric Proof
+\end{center}
+\vspace{0.1cm}
+\begin{minipage}{0.45\textwidth}
+    \includegraphics[scale=0.3]{los-triangle-two.png}
+\end{minipage}
+\begin{minipage}{0.55\textwidth}
+    $\sin\beta=\frac{X}{A}$\hspace{2cm}
+    $A\sin\beta=X$\vspace{0.1cm}\\
+    $\sin\alpha=\frac{X}{B}$\hspace{2cm}
+    $B\sin\alpha=X$\\
+    \\
+    $A\sin\beta=B\sin\alpha$\\
+    \\
+    $\frac{\sin\beta}{B}=\frac{\sin\alpha}{A}$
+\end{minipage}
+
+\newpage
+\section{Law of Cosines}
+\begin{minipage}{0.4\textwidth}
+    \includegraphics[scale=0.3]{loc-triangle-one.png}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+The law of cosines can be expressed in the form\\
+    $c^2=a^2+b^2-2ab\cos\theta$\\
+    \\
+    $c^2=144+81-216\cos(87^\circ)$\vspace{0.1cm}\\
+    $c=\sqrt{225-216\cos(87^\circ)}$\vspace{0.1cm}\\
+    $c\approx14.6$
+\end{minipage}
+\begin{center}
+    Alternately, it can be expressed in its arccos form as:\vspace{0.1cm}\\
+    $arccos(\frac{a^2+b^2-c^2}{2ab})=\theta$
+\end{center}
+\vspace{1.5cm}
+
+\begin{center}
+    Geometric Proof
+\end{center}
+\;\\
+\begin{minipage}{0.4\textwidth}
+    \includegraphics[scale=0.25]{loc-triangle-two.png}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+    $\cos\theta=\frac{d}{b} \longrightarrow d=b\cos\theta$\vspace{0.1cm}\\
+    $e=a-d \longrightarrow e=a-b\cos\theta$\vspace{0.1cm}\\
+    $\sin\theta=\frac{f}{b} \longrightarrow f=b\sin\theta$\vspace{0.1cm}\\
+    $c^2=e^2+f^2$\vspace{0.1cm}\\
+    $c^2=(a-b\cos\theta)^2+(b\sin\theta)^2$\\
+    \\
+    \\
+    $c^2=b^2\sin^2\theta+a^2-2ab\cos\theta+b^2\cos^2\theta$\vspace{0.1cm}\\
+    $c^2=b^2\sin^2\theta+b^2\cos^2\theta+a^2-2ab\cos\theta$\vspace{0.1cm}\\
+    $c^2=b^2(\sin^2\theta+\cos^2\theta)+a^2-2ab\cos\theta$\vspace{0.1cm}\\
+    $c^2=b^2+a^2-2ab\cos\theta$
+\end{minipage}
+
+\newpage
+\section{Angle Addition Formula Proof}
+\includegraphics[scale=0.6]{aaf-proof.png}
+\vspace{0.5cm}
+\\
+\begin{minipage}{0.225\textwidth}
+    \;
+\end{minipage}
+\begin{minipage}{0.55\textwidth}
+    
+$\sin(x+y)=\overline{DF}=\overline{DE} + \overline{BC}$\vspace{0.1cm}\\
+$\sin y=\frac{CB}{\cos x}\longrightarrow \overline{CB}=\cos x\sin y$\vspace{0.1cm}\\
+$\cos y=\frac{DE}{\sin x}\longrightarrow \overline{DE}=\sin x\cos y$\vspace{0.1cm}\\
+therefore,\vspace{0.1cm}\\
+$\boxed{\sin(x+y)=\sin x\cos y+\cos x\sin y}$\\
+\\
+\\
+$\cos(x+y)=\frac{AF}{AD}=\frac{AB-FB}{AD}=\frac{AB}{AD}-\frac{FB}{AD}$\vspace{0.1cm}\\
+$=\frac{AB}{AC}\cdot\frac{AC}{AD}-\frac{FB}{DC}\cdot\frac{DC}{AD}$\vspace{0.1cm}\\
+therefore,\vspace{0.1cm}\\
+$\boxed{\cos(x+y)=\cos y\cos x-\sin y\sin x}$
+    
+\end{minipage}
+\newpage
+
+\section{Deriving Useful Identities}
+
+\begin{minipage}{0.49\textwidth}
+$\sin(a+b)=\sin a\cos b+\cos a\sin b$\\
+$\sin(a-b)=\sin a\cos(-b)+\cos a\sin(-b)$\\
+$\cos(-b)=\cos b\;\;|\;\;\sin(-b)=-\sin b$\\
+$\boxed{\sin(a-b)=\sin a\cos b-\cos a\sin b}$\\
+\\
+$\cos(a+b)=\cos a\cos b-\sin a\sin b$\\
+$\cos(a-b)=\cos a\cos(-b)-\sin a\sin(-b)$\\
+$\cos(-b)=\cos b\;\;|\;\;\sin(-b)=-\sin b$\\
+$\boxed{\cos(a-b)=\cos a\cos b+\sin a\sin b}$\\
+\\
+$\sin(2a)=\sin(a+a)$\\
+$=\sin a\cos a+\sin a\cos a$\vspace{.1cm}\\
+$\boxed{\sin(2a)=2\sin a\cos a}$\\
+\\
+$\cos(a+b)=\cos a\cos b-\sin a\sin b$\\
+$\cos(2a)=\cos(a+a)$\\
+$=\cos a\cos a-\sin a\sin a$\\
+$\boxed{\cos(2a)=\cos^2a-\sin^2a}$\\
+$=\cos^2a-(1-\cos^2a$\\
+$=\cos^2a-1+\cos^2a$\\
+$\boxed{\cos(2a)=2\cos^2a-1}$\vspace{.1cm}\\
+$\boxed{\cos^2a=\frac{1}{2}\cdot[1+\cos(2a)]}$\vspace{.3cm}\\
+\\
+$\sin^2a+\cos^2a=1$\\
+$\sin^2a=1-\cos^2a$\\
+$\cos^2a=1-\sin^2a$\\
+$\cos(2a)=(1-\sin^2a)-\sin^2a$\vspace{0.1cm}\\
+$\boxed{\cos(2a)=1-2\sin^2a}$\\
+\\
+$2\sin^2a+\cos(2a)=1$\\
+$2\sin^2a=1-\cos(2a)$\vspace{0.1cm}\\
+$\boxed{\sin^2a=\frac{1}{2}\cdot[1-\cos(2a)]}$\vspace{0.1cm}\\
+\\
+$\cos(2a)=1-2\sin^2a$\\
+let $a=\frac{x}{2}$\\
+$\cos(2\frac{x}{2})=1-2\sin^2(\frac{x}{2})$\\
+$2\sin^2(\frac{x}{2})=1-\cos x$\\
+$\sin^2(\frac{x}{2})=\frac{1-\cos x}{2}$\\
+$\boxed{\sin(\frac{x}{2})=\pm\sqrt{\frac{1-\cos x}{2}}}$\vspace{0.2cm}
+\end{minipage}
+\begin{minipage}{0.04\textwidth}
+\rule{1px}{0.97\textheight}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+
+
+$\cos(2a)=2\cos^2a-1$\\
+let $a=\frac{x}{2}$\\
+$\cos(2\frac{x}{2}=2\cos^2(\frac{x}{2})-1$\\
+$2\cos^2(\frac{x}{2})=1+\cos x$\\
+$\cos^2(\frac{x}{2})=\frac{1+\cos x}{2}$\\
+$\boxed{\cos(\frac{x}{2})=\pm\sqrt{\frac{1+\cos x}{2}}}$\\
+\\
+\\
+$\tan(\frac{a}{2})=\frac{\sin(\frac{a}{2})}{\cos(\frac{a}{2})}$\\
+$\boxed{\tan(\frac{a}{2})=\pm\sqrt{\frac{1-\cos a}{1+\cos a}}}$\vspace{.1cm}\\
+$\boxed{\tan(\frac{a}{2})=\frac{\sin a}{1+\cos a}}$\vspace{.1cm}\\
+$\boxed{\tan(\frac{a}{2})=\frac{1-\cos a}{\sin a}}$\vspace{.4cm}\\
+\\
+$\tan(a+b)=\frac{\sin(a+b)}{\cos(a+b)}$\\
+$=\frac{\sin a\cos b+\cos a\sin b}{\cos a\cos b-\sin a\sin b}$\\
+\\
+$=\frac{\;\;\frac{\sin a\cos b+\cos a\sin b}{\cos a\cos b}}{1-\frac{\sin a\sin b}{\cos a\cos b}}$
+$=\frac{\;\;\frac{\sin a}{\cos a} + \frac{\sin b}{\cos b}}{1-\frac{\sin a}{\cos a}\cdot\frac{\sin b}{\cos b}}$\vspace{.1cm}\\
+$\boxed{\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\tan b}}$\\
+\\
+\\
+$\tan(a-b)=\tan[a+(-b)]$\\
+$\tan(a-b)=\frac{\tan a+\tan(-b)}{1-\tan a\tan(-b)}$\vspace{0.1cm}\\
+$\boxed{\tan(a-b)\frac{\tan a-\tan b}{1+\tan a\tan b}}$\\
+\\
+\\
+$\sin(2a)=2\sin a\cos a=\frac{2\tan a}{1+\tan^2 a}$\\
+$\cos(2a)=\cos^2a-\sin^2a$\\
+$=2\cos^2a-1$\\
+$=1-2\sin^2a$\\
+$=\frac{1-\tan^2a}{1+\tan^2a}$\vspace{0.1cm}\\
+$\boxed{\tan(2a)=\frac{2\tan a}{1-\tan^2a}}$
+
+
+\end{minipage}
+
+\newpage
+\section{Quick Reference Materials}
+\vspace{3cm}
+\begin{minipage}{0.49\textwidth}
+Pythagorean Identities\\
+$\sin^2\theta+\cos^2\theta=1$\\
+$\sin^2\theta=1-\cos^2\theta$\\
+$\cos^2\theta=1-\sin^2\theta$\vspace{0.8cm}
+\\
+Quotient Identities\\
+$\tan\theta=\frac{\sin\theta}{\cos\theta}$\vspace{.1cm}\\
+$\cot\theta=\frac{\cos\theta}{\sin\theta}$\vspace{0.8cm}
+\\
+Reciprocal Identities\\
+$\sec\theta=\frac{1}{\cos\theta}$\vspace{.1cm}\\
+$\csc\theta=\frac{1}{\sin\theta}$\vspace{.1cm}\\
+$\cot\theta=\frac{1}{\tan\theta}$\vspace{0.8cm}
+\\
+Sum and Difference Identities\\
+$\sin(x+y)=\sin x\cos y+\cos x\sin y$\\
+$\cos(x+y)=\cos y\cos x-\sin y\sin x$\\
+$\sin(a-b)=\sin a\cos b-\cos a\sin b$\\
+$\cos(a-b)=\cos a\cos b+\sin a\sin b$\vspace{.1cm}\\
+$\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\tan b}$\vspace{.1cm}\\
+$\tan(a-b)\frac{\tan a-\tan b}{1+\tan a\tan b}$\\
+\end{minipage}
+\begin{minipage}{0.07\textwidth}
+\rule{1px}{0.6\textheight}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+Double-Angle Identities\\
+$\sin(2a)=2\sin a\cos a$\\
+$\cos(2a)=\cos^2a-\sin^2a$\\
+$\cos(2a)=2\cos^2a-1$\\
+$\cos(2a)=1-2\sin^2a$\\
+$\tan(2a)=\frac{2\tan a}{1-\tan^2a}$\vspace{1cm}
+\\
+Half-Angle Identities\\
+$\sin(\frac{x}{2})=\pm\sqrt{\frac{1-\cos x}{2}}$\\
+$\cos(\frac{x}{2})=\pm\sqrt{\frac{1+\cos x}{2}}$\\
+$\tan(\frac{a}{2})=\pm\sqrt{\frac{1-\cos a}{1+\cos a}}$\vspace{.1cm}\\
+$\tan(\frac{a}{2})=\frac{\sin a}{1+\cos a}$\vspace{.1cm}\\
+$\tan(\frac{a}{2})=\frac{1-\cos a}{\sin a}$\vspace{1cm}
+\\
+Odd and Even Identities\\
+$\cos(-\theta)=\cos\theta$\\
+$\sin(-\theta)=-\sin\theta$\\
+$\tan(-\theta)=-\tan\theta$
+\end{minipage}
+\newpage
+\newgeometry{left=1.5cm,bottom=0.1cm}
+\begin{center}
+\includegraphics[]{UnitCircle.png}
+\end{center}
+\vspace{1.5cm}
+Courtesy of embeddedmath.com
+
+\end{document}
+
