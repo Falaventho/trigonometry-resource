@@ -10,7 +10,7 @@
 %--- layout lines, remove when finished ---%
 
 
-\title{Trigonometry Reference\\[1ex] \large Version 0.9.1}
+\title{Trigonometry Reference\\[1ex] \large Version 0.9.3}
 \author{N. Gray}
 \date{June 2024}
 
@@ -101,7 +101,7 @@ For each of the three basic trigonometric functions (sin, cos, tan), there exist
 \end{minipage}
 \newpage
 \section{Arc Functions}
-Another set of functions is directly related to the three basic functions and their reciprocals. These are inverse functions, which "undo" their associated functions. They are called arc functions because they give the length of the arc of a given ratio. There is one arc function for each of the three basic functions and each of their reciprocals:\vspace{0.25cm}\\
+Another set of functions is directly related to the three basic functions and their reciprocals. These are inverse functions, which ``undo'' their associated functions. They are called arc functions because they give the length of the arc of a given ratio. There is one arc function for each of the three basic functions and each of their reciprocals:\vspace{0.25cm}\\
 \begin{minipage}{0.5\textwidth}
 $\sin\theta=y\longrightarrow\arcsin y=\theta$\\
 $\cos\theta=y\longrightarrow\arccos y=\theta$\\
@@ -112,7 +112,7 @@ $\sec\theta=y\longrightarrow\text{arcsec}\:y=\theta$\\
 $\tan\theta=y\longrightarrow\text{arccot}\:y=\theta$
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
-It is important to mention that another notation is often used for these inverse functions. The standard inverse function notation is $\;f^{-1}(x)$, the inverse for some function $\;f(x)$. Here, any of the base functions can replace '$f$' in the inverse function notation. For example, $\;\arcsin\theta$\; can instead be written as $\;\sin^{-1}\theta\;$. The same holds true for all other base functions and their associated inverse functions.
+It is important to mention that another notation is often used for these inverse functions. The standard inverse function notation is $\;f^{-1}(x)$, the inverse for some function $\;f(x)$. Here, any of the base functions can replace `$f$' in the inverse function notation. For example, $\;\arcsin\theta$\; can instead be written as $\;\sin^{-1}\theta\;$. The same holds true for all other base functions and their associated inverse functions.
 \end{minipage}
 
 \section{Radians}
@@ -251,7 +251,7 @@ $horizontal\;shift = C$\\
 $vertical\;shift = D$\\
 \vspace{0.1cm}
 \end{center}
-Note: the sinusoidal function may take the form $y=A\sin(Bx-C)+D$ instead. If this is the case, the horizontal offset or "phase shift" is $\frac{C}{B}$ instead of $C$ as in the above example.
+Note: the sinusoidal function may take the form $y=A\sin(Bx-C)+D$ instead. If this is the case, the horizontal offset or ``phase shift'' is $\frac{C}{B}$ instead of $C$ as in the above example.
 \vspace{0.5cm}
 \begin{center}
     Worked Example\\
@@ -265,7 +265,7 @@ $amplitude=6$\\
 $midline=-3$
 \end{minipage}
 \begin{minipage}{0.7\textwidth}
-    The $+4$ inside the $\sin(u)$ is an x-offset or "phase shift." The value of the phase shift can be derived from a function in the form $A\sin(Bx-C)+D$ as $\frac{C}{B}$. In this case, $-\frac{4}{3}$. The phase shift represents an offset in the -x direction, so this graph is shifted to the right $\frac{4}{3}$ or $1.\overline{3}$.
+    The $+4$ inside the $\sin(u)$ is an x-offset or ``phase shift.'' The value of the phase shift can be derived from a function in the form $A\sin(Bx-C)+D$ as $\frac{C}{B}$. In this case, $-\frac{4}{3}$. The phase shift represents an offset in the -x direction, so this graph is shifted to the right $\frac{4}{3}$ or $1.\overline{3}$.
 \end{minipage}
 
 \section{Law of Sines}
@@ -466,7 +466,14 @@ $\boxed{\tan(2a)=\frac{2\tan a}{1-\tan^2a}}$
 
 \newpage
 \section{Quick Reference Materials}
-\vspace{3cm}
+\vspace{1.5cm}
+\begin{center}
+\underline{\textbf{Trigonometric Identities}}\\
+\end{center}
+\vspace{1.5cm}
+\begin{minipage}{0.15\textwidth}
+    \;
+\end{minipage}
 \begin{minipage}{0.49\textwidth}
 Pythagorean Identities\\
 $\sin^2\theta+\cos^2\theta=1$\\
@@ -490,9 +497,6 @@ $\cos(a-b)=\cos a\cos b+\sin a\sin b$\vspace{.1cm}\\
 $\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\tan b}$\vspace{.1cm}\\
 $\tan(a-b)\frac{\tan a-\tan b}{1+\tan a\tan b}$\\
 \end{minipage}
-\begin{minipage}{0.07\textwidth}
-\rule{1px}{0.6\textheight}
-\end{minipage}
 \begin{minipage}{0.49\textwidth}
 Double-Angle Identities\\
 $\sin(2a)=2\sin a\cos a$\\
@@ -508,18 +512,21 @@ $\tan(\frac{a}{2})=\pm\sqrt{\frac{1-\cos a}{1+\cos a}}$\vspace{.1cm}\\
 $\tan(\frac{a}{2})=\frac{\sin a}{1+\cos a}$\vspace{.1cm}\\
 $\tan(\frac{a}{2})=\frac{1-\cos a}{\sin a}$\vspace{1cm}
 \\
-Odd and Even Identities\\
-$\cos(-\theta)=\cos\theta$\\
-$\sin(-\theta)=-\sin\theta$\\
-$\tan(-\theta)=-\tan\theta$
+Even Identities\\
+$\cos(-\theta)=\cos\theta$\vspace{.1cm}\\
+$\sec(-\theta)=\sec\theta$\vspace{.1cm}\\
+\\
+Odd Identities\\
+$\sin(-\theta)=-\sin\theta$\vspace{.1cm}\\
+$\tan(-\theta)=-\tan\theta$\vspace{.1cm}\\
+$\csc(-\theta)=-\csc\theta$
 \end{minipage}
 \newpage
 \newgeometry{left=1.5cm,bottom=0.1cm}
 \begin{center}
-\includegraphics[]{UnitCircle.png}
+\includegraphics[scale=0.92]{UnitCircle.png}
 \end{center}
 \vspace{1.5cm}
 Courtesy of embeddedmath.com
 
 \end{document}
-
