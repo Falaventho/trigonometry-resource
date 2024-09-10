@@ -10,9 +10,9 @@
 %--- layout lines, remove when finished ---%
 
 
-\title{Trigonometry Reference\\[1ex] \large Version 1.0.0}
+\title{Trigonometry Reference\\[1ex] \large Version 1.0.1}
 \author{N. Gray}
-\date{June 2024}
+\date{September 2024}
 
 \begin{document}
 
@@ -138,7 +138,7 @@ $\frac{\pi}{3}rad=\frac{180\pi}{3\pi}=60^\circ$
 \newpage
 \section{Unit Circle}
 
-The unit circle is a circle on a Cartesian plane with a radius of one. It is a helpful tool that allows for the visualization of sin, cos, and tan by forcing any right triangle drawn within the bounds of the circle using the origin and intersection of the circle as ends of a line segment to have a hypotenuse equal to one. This makes the sin and cos, which depend upon the hypotenuse as the denominator of their ratios, easier to identify and memorize at certain useful angles. The result is that the x-value of a coordinate on the circle is equal to the cosine of the angle formed from the origin, while the y-value of a coordinate is equal to the sin of said angle. Additionally, it allows for the consideration of trigonometric functions outside of normal bounds and gives answers to difficult questions concerning the limits of these functions and their symmetries across positive and negative domains.
+The unit circle is a circle on a Cartesian plane, centered at the origin (0,0), with a radius of one. It is a helpful tool that allows for the visualization of sin, cos, and tan by forcing any right triangle drawn within the bounds of the circle using the origin and intersection of the circle as ends of a line segment to have a hypotenuse equal to one. This makes the sin and cos, which depend upon the hypotenuse as the denominator of their ratios, easier to identify and memorize at certain useful angles. The result is that the x-value of a coordinate on the circle is equal to the cosine of the angle formed from the origin, while the y-value of a coordinate is equal to the sin of said angle. Additionally, it allows for the consideration of trigonometric functions outside of normal bounds and gives answers to difficult questions concerning the limits of these functions and their symmetries across positive and negative domains.
 \vspace{1.5cm}
 \\
 \begin{minipage}{0.5\textwidth}
@@ -178,7 +178,7 @@ $\tan\theta=\frac{\sin\theta}{\cos\theta}=\frac{y}{x}$
     $\tan(\pi-\theta)=-\tan\theta$\\
     \\
     $\cos(\pi+\theta)=-\cos\theta$\\
-    $\sin(\pi+\theta=-\sin\theta$\\
+    $\sin(\pi+\theta)=-\sin\theta$\\
     $\tan(\pi+\theta)=\tan\theta$\\
 \end{minipage}
 
@@ -401,7 +401,7 @@ $\cos(a+b)=\cos a\cos b-\sin a\sin b$\\
 $\cos(2a)=\cos(a+a)$\\
 $=\cos a\cos a-\sin a\sin a$\\
 $\boxed{\cos(2a)=\cos^2a-\sin^2a}$\\
-$=\cos^2a-(1-\cos^2a$\\
+$=\cos^2a-(1-\cos^2a)$\\
 $=\cos^2a-1+\cos^2a$\\
 $\boxed{\cos(2a)=2\cos^2a-1}$\vspace{.1cm}\\
 $\boxed{\cos^2a=\frac{1}{2}\cdot[1+\cos(2a)]}$\vspace{.3cm}\\
@@ -452,7 +452,7 @@ $\boxed{\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\tan b}}$\\
 \\
 $\tan(a-b)=\tan[a+(-b)]$\\
 $\tan(a-b)=\frac{\tan a+\tan(-b)}{1-\tan a\tan(-b)}$\vspace{0.1cm}\\
-$\boxed{\tan(a-b)\frac{\tan a-\tan b}{1+\tan a\tan b}}$\\
+$\boxed{\tan(a-b)=\frac{\tan a-\tan b}{1+\tan a\tan b}}$\\
 \\
 \\
 $\sin(2a)=2\sin a\cos a=\frac{2\tan a}{1+\tan^2 a}$\\
@@ -496,7 +496,7 @@ $\cos(a+b)=\cos a\cos b-\sin a\sin b$\\
 $\sin(a-b)=\sin a\cos b-\cos a\sin b$\\
 $\cos(a-b)=\cos a\cos b+\sin a\sin b$\vspace{.1cm}\\
 $\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\tan b}$\vspace{.1cm}\\
-$\tan(a-b)\frac{\tan a-\tan b}{1+\tan a\tan b}$\\
+$\tan(a-b)=\frac{\tan a-\tan b}{1+\tan a\tan b}$\\
 \end{minipage}
 \begin{minipage}{0.49\textwidth}
 Double-Angle Identities\vspace{0.1cm}\\
